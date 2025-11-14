@@ -184,8 +184,10 @@
 
 **Actual result:**  
 Debug text present on description/titles have debug text 
+
 **Expected Result:**  
 Correct information displayed in order of the requirements
+
 **Impact:**  
 May cause visual/context disturbance in customers
 ---
@@ -201,8 +203,10 @@ May cause visual/context disturbance in customers
 
 **Actual result:**  
 User cannot remove items directly from the catalog, only from the cart
+
 **Expected Result:**  
 User can remove items directly from the catalog
+
 **Impact:**  
 May cause loses in sells and concerning reports from Users
 ---
