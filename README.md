@@ -155,19 +155,21 @@
 
 ### **General Bugs/Errors Report**
 
-| Bug ID  | Type        | Severity (Trivial, Low, Medium, High, Several, Critical) | Description                                                                          |
-|---------|-------------|----------------------------------------------------------|--------------------------------------------------------------------------------------|
-| BUG-001 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
-| BUG-002 | Functional  | High                                                     | Users have trouble removing items directly from the catalog                          |
-| BUG-003 | Visual      | High                                                     | User cannot see product images correctly from the catalog                            |
-| BUG-004 | Functional  | Several                                                  | User cannot confirm Order due to not being able to fill First and Last Name requirements |
-| BUG-005 | Feature     | High                                                     | User cannot filter the catalog with any of the options                               |
-| BUG-006 | Feature     | High                                                     | String names and descriptions have debug text present                                || BUG-001 | Visual | Medium                                                   | String names and descriptions have debug text present |
-| BUG-007 | Functional  | Medium                                                   | String names and descriptions have debug text present                                |
-| BUG-008 | Performance | Critical                                                 | String names and descriptions have debug text present                                |
-| BUG-009 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
-| BUG-010 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
-| BUG-011 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
+| Bug ID  | Type        | Severity (Trivial, Low, Medium, High, Several, Critical) | Description                                                                                                            |
+|---------|-------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| BUG-001 | Visual      | Medium                                                   | String names and descriptions have debug text present                                                                  |
+| BUG-002 | Functional  | High                                                     | Users have trouble removing items directly from the catalog                                                            |
+| BUG-003 | Visual      | High                                                     | User cannot see product images correctly from the catalog                                                              |
+| BUG-004 | Functional  | Several                                                  | User cannot confirm Order due to not being able to fill First and Last Name requirements                               |
+| BUG-005 | Feature     | High                                                     | User cannot filter the catalog with any of the options/Receives an error prompt                                        |
+| BUG-006 | Performance | Critical                                                 | User experience delay/lag in some of the functionalities/features in the Store                                         |
+| BUG-007 | Functional  | High                                                     | User report not being able to add some items but other yes but when added cannot remove them without going to the cart |
+| BUG-008 | Functional  | Critical                                                 | User tries to complete checkout but it's unable to fill Last Name and finish the order                                 |
+| BUG-009 | Visual      | Critical                                                 | User reports that prices are constantly changing when browse the catalog                                               |
+| BUG-010 | Visual      | High                                                     | UI cart icon/asset is not placed correctly                                                                             |
+| BUG-011 | Visual      | Medium                                                   | UI extra option icon/asset is misaligned                                                                               |
+| BUG-012 | Visual      | High                                                     | UI checkout button icon/asset is not placed correctly                                                                  |
+
 
 ---
 
