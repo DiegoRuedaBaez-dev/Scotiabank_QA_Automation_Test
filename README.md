@@ -170,7 +170,6 @@
 | BUG-011 | Visual      | Medium                                                   | UI extra option icon/asset is misaligned                                                                               |
 | BUG-012 | Visual      | High                                                     | UI checkout button icon/asset is not placed correctly                                                                  |
 
-
 ---
 
 ## **BUG-001 | String names and descriptions have debug text present**
@@ -190,7 +189,7 @@ Correct information displayed in order of the requirements
 **Impact:**  
 May cause visual/context disturbance in customers
 ---
-## **BUG-002 | Users have trouble removing items directly from the catalog*
+## **BUG-002 | Users have trouble removing items directly from the catalog**
 
 **Severity:** High
 
