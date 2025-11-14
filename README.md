@@ -15,6 +15,9 @@
     - scoop install allure
 - Run test
     - mvn clean test
+- After running to open the report
+  - allure serve allure-results
+
 </details>
 
 <details>
