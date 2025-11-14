@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 public class hooks {
     @Before
     public void setUp() {
-        driverFactory.getDriver();
+        driverFactory.getDriver().get("https://www.saucedemo.com/");
     }
     @After
     public void tearDown() {
