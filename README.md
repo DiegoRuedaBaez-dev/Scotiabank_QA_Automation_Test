@@ -20,22 +20,70 @@
 
 ### **Test Cases**
 
-| Test Case ID | Title | Priority | Expected Result |
-|--------------|-------|----------|-----------------|
-| TC-001       |       |          |                 |
+| Test Case ID | Title                               | Priority (5 Lowest -> 1 Highest) | Expected Result                                         |
+|--------------|-------------------------------------|----------------------------------|---------------------------------------------------------|
+| TC-001       | Login Validation                    | 1                                | Correct access to store                                 |
+| TC-002       | Catalog Filtering Validation        | 3                                | Correct filtering workflow with all 4 options           |
+| TC-003       | Cart Add/Remove Workflow Validation | 2                                | Correctly add or remove any item from the store/cart    |
+| TC-004       | Checkout validation                 | 1                                | Fulfill correct order workflow and confirmation         |
+| TC-005       | Invalid Login Credentials           | 2                                | Not able to access to store                             |
+| TC-006       | Visual UI/UX Validation             | 2                                | UI Assets correctly align without affecting UX workflow |
 
 
 ---
 
-## **BUG-001**
+## **TC-001 | Login Validation**
 
-**Priority:** 
+**Priority: 1** 
 
 **Preconditions:**
-
+- Access to Login frontpage (https://www.saucedemo.com/)
+- Check Accepted Username and Password Data
 **Steps:**
+1. Access to Login frontpage
+2. Use Accepted Username and Password Data
+3. Access to store correctly
 
-**Expected Result:**
+**Expected Result: Correct access to store without missing information or performance issues**
+
+---
+
+---
+
+## **TC-002 | Catalog Filtering Validation**
+
+**Priority: 1**
+
+**Preconditions:**
+- Access to Login frontpage (https://www.saucedemo.com/)
+- Check Accepted Username and Password Data
+  **Steps:**
+1. Access to Login frontpage
+2. Use Accepted Username and Password Data
+3. Access to store correctly
+4. Locate filtering options on the store
+5. Select the option that you to filter (Try at least once each option)
+6. See the results
+
+**Expected Result: Correct filtering depending on the option selected without missing information or performance issues**
+
+---
+## **TC-002 | Cart Add/Remove Workflow Validation**
+
+**Priority: 1**
+
+**Preconditions:**
+- Access to Login frontpage (https://www.saucedemo.com/)
+- Check Accepted Username and Password Data
+  **Steps:**
+1. Access to Login frontpage
+2. Use Accepted Username and Password Data
+3. Access to store correctly
+4. Locate "Add to Cart"
+5. Select the option that you to filter (Try at least once each option)
+6. See the results
+
+**Expected Result: Correct filtering depending on the option selected without missing information or performance issues**
 
 ---
     
