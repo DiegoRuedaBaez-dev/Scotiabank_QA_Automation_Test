@@ -51,7 +51,7 @@
 
 ## **TC-002 | Catalog Filtering Validation**
 
-**Priority: 1**
+**Priority: 3**
 
 **Preconditions:**
 - Access to Login frontpage (https://www.saucedemo.com/)
@@ -70,7 +70,7 @@
 ---
 ## **TC-003 | Cart Add/Remove Workflow Validation**
 
-**Priority: 1**
+**Priority: 2**
 
 **Preconditions:**
 - Access to Login frontpage (https://www.saucedemo.com/)
@@ -113,7 +113,23 @@
 ---
 ## **TC-005 | Login Validation**
 
-**Priority: 1**
+**Priority: 2**
+
+**Preconditions:**
+- Access to Login frontpage (https://www.saucedemo.com/)
+- Check Accepted Username and Password Data
+
+**Steps:**
+1. Access to Login frontpage
+2. Use Un-accepted/Blocked Username and Password Data
+3. Not able to access store
+
+**Expected Result: Not able to access to store**
+
+---
+## **TC-006 | Visual UI/UX Validation**
+
+**Priority: 2**
 
 **Preconditions:**
 - Access to Login frontpage (https://www.saucedemo.com/)
@@ -123,8 +139,11 @@
 1. Access to Login frontpage
 2. Use Accepted Username and Password Data
 3. Access to store correctly
+4. Check the catalog for the correct prices and item images
+5. Check the UI icons/assets that are correctly placed/align
+6. Check Checkout workflow to be finished correctly
 
-**Expected Result: Correct access to store without missing information or performance issues**
+**Expected Result: UI Assets correctly align without affecting UX workflow or present any performance issues**
 
 ---
     
