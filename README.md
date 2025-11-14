@@ -190,6 +190,7 @@ Correct information displayed in order of the requirements
 
 **Impact:**  
 May cause visual/context disturbance in customers
+
 ---
 ## **BUG-002 | Users have trouble removing items directly from the catalog**
 
@@ -209,6 +210,7 @@ User can remove items directly from the catalog
 
 **Impact:**  
 May cause loses in sells and concerning reports from Users
+
 ---
 </details>
 
