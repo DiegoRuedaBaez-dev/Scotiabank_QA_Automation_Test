@@ -1,4 +1,4 @@
-# Technical Test - QA Automation Tester | Scotiatech Hiring Test
+# Technical Test - QA Automation Engineer | Scotiatech Hiring Test
 
 <details>
   <summary><strong>Setup</strong></summary>
