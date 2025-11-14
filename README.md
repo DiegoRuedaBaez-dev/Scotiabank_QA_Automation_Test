@@ -155,25 +155,55 @@
 
 ### **General Bugs/Errors Report**
 
-| Bug ID | Type      | Severity | Description                                                                          |
-|--------|-----------|----------|--------------------------------------------------------------------------------------|
-| BUG-001 |  |     |  |
-
+| Bug ID  | Type        | Severity (Trivial, Low, Medium, High, Several, Critical) | Description                                                                          |
+|---------|-------------|----------------------------------------------------------|--------------------------------------------------------------------------------------|
+| BUG-001 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
+| BUG-002 | Functional  | High                                                     | Users have trouble removing items directly from the catalog                          |
+| BUG-003 | Visual      | High                                                     | User cannot see product images correctly from the catalog                            |
+| BUG-004 | Functional  | Several                                                  | User cannot confirm Order due to not being able to fill First and Last Name requirements |
+| BUG-005 | Feature     | High                                                     | User cannot filter the catalog with any of the options                               |
+| BUG-006 | Feature     | High                                                     | String names and descriptions have debug text present                                || BUG-001 | Visual | Medium                                                   | String names and descriptions have debug text present |
+| BUG-007 | Functional  | Medium                                                   | String names and descriptions have debug text present                                |
+| BUG-008 | Performance | Critical                                                 | String names and descriptions have debug text present                                |
+| BUG-009 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
+| BUG-010 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
+| BUG-011 | Visual      | Medium                                                   | String names and descriptions have debug text present                                |
 
 ---
 
-## **BUG-001**
+## **BUG-001 | String names and descriptions have debug text present**
 
-**Severity:** Major
+**Severity:** Medium
 
 **Repro steps:**
+1. Access to Login frontpage
+2. Login correctly
+3. Check descriptions/titles in the items
+4. See the debug text
 
 **Actual result:**  
-
+Debug text present on description/titles have debug text 
 **Expected Result:**  
-
+Correct information displayed in order of the requirements
 **Impact:**  
+May cause visual/context disturbance in customers
+---
+## **BUG-002 | Users have trouble removing items directly from the catalog*
 
+**Severity:** High
+
+**Repro steps:**
+1. Access to Login frontpage (problem_user)
+2. Login correctly
+3. Try adding items from the catalog
+4. Try removing the items directly from the catalog
+
+**Actual result:**  
+User cannot remove items directly from the catalog, only from the cart
+**Expected Result:**  
+User can remove items directly from the catalog
+**Impact:**  
+May cause loses in sells and concerning reports from Users
 ---
 </details>
 
