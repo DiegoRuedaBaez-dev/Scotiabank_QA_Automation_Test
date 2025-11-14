@@ -5,6 +5,9 @@
 
 - Install IntelliJ IDEA or your preferred IDE
 - Initialize project with Maven as the Build System
+- Install Maven locally
+  - Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  - choco install maven -y
 - Check MVN Repository or Documentation for each dependency
 - Install dependencies copying the implementation code in the pom.xml
 - Install scoop and allure locally
